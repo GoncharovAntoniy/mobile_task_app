@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+  </head>
+  <body>
+    <div id="app">
+      <div class="container">
+        <header class="header">
+          SPECIAL OFFER + FREE DELIVERY 2-4 DAYS IN SA
+        </header>
+
+        <div class="subtitle">
+          <img src="./CUSHION.png" alt="image" />
+        </div>
+
+        <div class="slippers">
+          <div class="slippers_info">
+
+            <div class="slippers_info_item-left">
+              <p class="slippers_info_item-left_title">LIMITED OFFER</p>
+              <p class="slippers_info_item-left_timer">
+                <span class="hours"></span>:<span class="minutes"></span>:<span class="seconds"></span>
+              </p>
+            </div>
+
+            <div class="slippers_info_item-right">
+              <p class="slippers_info_item-right_old-price">
+                R 250.00 <span class="line-through"></span>
+              </p>
+              <p class="slippers_info_item-right_new-price">R 160.00</p>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="trustpilot">
+          <div class="trustpilot_header">
+            <p class="trustpilot_header_item Excellent">Excellent 4.8/5</p>
+            <p class="trustpilot_header_item Trustpilot">
+              <img src="./star.svg" alt="logo">
+              <img src="./Trunspilot.svg" alt="logo"></p>
+            <p class="trustpilot_header_item best">best selling</p>
+          </div>
+          <p class="trustpilot_title">Orthopedic Slippers</p>
+          <div class="images">
+            <img class="images_item" src="./black.png" alt="image">
+          </div>
+          <div class="images_mini">
+            <img id="animation1" class="images_mini_item active" src="./black.png" alt="image">
+            <img id="animation2" class="images_mini_item" src="./orange.png" alt="image">
+            <img id="animation3" class="images_mini_item" src="./pink.png" alt="image">
+            <img id="animation4" class="images_mini_item" src="./yellow.png" alt="image">
+          </div>
+        </div>
+
+        <div class="description">
+          <p class="description_item delivery">Fast delivery: <span>2-4 days from SA</span></p>
+          <p class="description_item stock">In Stock: <span>Shipping from Johannesburg</span></p>
+          <p class="description_item stars">
+            <img src="./stars.svg" alt="icon">
+            <img src="./stars.svg" alt="icon">
+            <img src="./stars.svg" alt="icon">
+            <img src="./stars.svg" alt="icon">
+            <img src="./stars.svg" alt="icon">
+            (10)</p>
+        </div>
+
+        <div class="goods">
+          <label class="goods_label">
+            color
+            <select name="" class="goods_label_select" id="select_color">
+              <option class="goods_label_select_item_color" value="black">Black</option>
+              <option class="goods_label_select_item_color" value="orange">Orange</option>
+              <option class="goods_label_select_item_color" value="pink">Pink</option>
+              <option class="goods_label_select_item_color" value="yellow">Yellow</option>
+            </select>
+          </label>
+          <label class="goods_label">
+            size
+            <select class="goods_label_select" id="select_size">
+              <option class="goods_label_select_item" value="2">2</option>
+              <option class="goods_label_select_item" value="3">3</option>
+              <option class="goods_label_select_item" value="4">4</option>
+              <option class="goods_label_select_item" value="5">5</option>
+            </select>
+          </label>
+
+        </div>
+
+        <div class="block">
+          <button class="block_button">BUY NOW</button>
+        </div>
+
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
